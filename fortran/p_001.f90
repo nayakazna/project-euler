@@ -1,12 +1,11 @@
 program problem1
-    ! Initialization of variables
+    implicit none
     integer :: sum
     integer :: i
 
-    ! Declaration of variables
     sum = 0
 
-    ! Do Loop
+    ! Using PIE to find multiples of 3 or 5 below 1000
     do i = 3, 999, 3
         sum = sum + i
     end do
